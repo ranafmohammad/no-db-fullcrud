@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(http://dailyrunneronline.com/wp-content/uploads/2014/02/o-THEATER-SEATS-facebook.jpg);
+  background-size: contain;
+}
+
+.my-button {
+  background: none;
+  background-color: rgb(172, 30, 5);
+  min-height: 50px;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.my-button:hover {
+  background-color: rgb(218, 52, 11);
+}
+
+#root {
+  height: 100vh;
+  overflow: scroll;
+}
